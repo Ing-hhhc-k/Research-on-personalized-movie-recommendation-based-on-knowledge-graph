@@ -1,0 +1,318 @@
+(USER-CF)不同 K 值下的推荐系统评估指标：
+
+🔹 K = 10
+  MAE: 0.6179
+  RMSE: 0.7761
+  Precision@K: 0.1245
+  Recall@K: 0.0762
+  F1@K: 0.0945
+  Coverage: 0.7433
+
+🔹 K = 15
+  MAE: 0.6179
+  RMSE: 0.7761
+  Precision@K: 0.1272
+  Recall@K: 0.1168
+  F1@K: 0.1218
+  Coverage: 0.8556
+
+🔹 K = 20
+  MAE: 0.6179
+  RMSE: 0.7761
+  Precision@K: 0.125
+  Recall@K: 0.153
+  F1@K: 0.1376
+  Coverage: 0.9358
+
+🔹 K = 25
+  MAE: 0.6179
+  RMSE: 0.7761
+  Precision@K: 0.1249
+  Recall@K: 0.1911
+  F1@K: 0.1511
+  Coverage: 0.9679
+
+🔹 K = 30
+  MAE: 0.6179
+  RMSE: 0.7761
+  Precision@K: 0.1224
+  Recall@K: 0.2249
+  F1@K: 0.1586
+  Coverage: 0.9679
+
+🔹 K = 35
+  MAE: 0.6179
+  RMSE: 0.7761
+  Precision@K: 0.1257
+  Recall@K: 0.2692
+  F1@K: 0.1713
+  Coverage: 0.9947
+
+🔹 K = 40
+  MAE: 0.6179
+  RMSE: 0.7761
+  Precision@K: 0.1301
+  Recall@K: 0.3186
+  F1@K: 0.1847
+  Coverage: 0.9947
+
+🔹 K = 45
+  MAE: 0.6179
+  RMSE: 0.7761
+  Precision@K: 0.1277
+  Recall@K: 0.3517
+  F1@K: 0.1873
+  Coverage: 1.0
+
+🔹 K = 50
+  MAE: 0.6179
+  RMSE: 0.7761
+  Precision@K: 0.1259
+  Recall@K: 0.3854
+  F1@K: 0.1898
+  Coverage: 1.0
+
+
+  (ITEM-CF)不同 K 值下的推荐系统评估指标（基于项目的协同过滤）：
+
+🔹 K = 10
+  MAE: 2.3151
+  RMSE: 2.5812
+  Precision@K: 0.1286
+  Recall@K: 0.0787
+  F1@K: 0.0976
+  Coverage: 0.861
+
+🔹 K = 15
+  MAE: 2.3151
+  RMSE: 2.5812
+  Precision@K: 0.1279
+  Recall@K: 0.1174
+  F1@K: 0.1224
+  Coverage: 0.9251
+
+🔹 K = 20
+  MAE: 2.3151
+  RMSE: 2.5812
+  Precision@K: 0.1362
+  Recall@K: 0.1668
+  F1@K: 0.15
+  Coverage: 0.9572
+
+🔹 K = 25
+  MAE: 2.3151
+  RMSE: 2.5812
+  Precision@K: 0.1294
+  Recall@K: 0.198
+  F1@K: 0.1565
+  Coverage: 0.984
+
+🔹 K = 30
+  MAE: 2.3151
+  RMSE: 2.5812
+  Precision@K: 0.1313
+  Recall@K: 0.2411
+  F1@K: 0.17
+  Coverage: 0.984
+
+🔹 K = 35
+  MAE: 2.3151
+  RMSE: 2.5812
+  Precision@K: 0.1303
+  Recall@K: 0.2792
+  F1@K: 0.1777
+  Coverage: 0.9947
+
+🔹 K = 40
+  MAE: 2.3151
+  RMSE: 2.5812
+  Precision@K: 0.1309
+  Recall@K: 0.3204
+  F1@K: 0.1858
+  Coverage: 1.0
+
+🔹 K = 45
+  MAE: 2.3151
+  RMSE: 2.5812
+  Precision@K: 0.1311
+  Recall@K: 0.361
+  F1@K: 0.1923
+  Coverage: 1.0
+
+🔹 K = 50
+  MAE: 2.3151
+  RMSE: 2.5812
+  Precision@K: 0.1329
+  Recall@K: 0.4066
+  F1@K: 0.2003
+  Coverage: 1.0
+
+
+不同 a 值下的推荐系统评估指标（混合相似度）：
+
+🔹 a = 0
+  MAE: 0.695
+  RMSE: 0.8658
+  Precision@K: 0.1321
+  Recall@K: 0.1618
+  F1@K: 0.1455
+  Coverage: 0.9677
+
+🔹 a = 0.1
+  MAE: 0.6948
+  RMSE: 0.865
+  Precision@K: 0.127
+  Recall@K: 0.1555
+  F1@K: 0.1398
+  Coverage: 0.9946
+
+🔹 a = 0.2
+  MAE: 0.6948
+  RMSE: 0.8644
+  Precision@K: 0.1286
+  Recall@K: 0.1574
+  F1@K: 0.1415
+  Coverage: 0.9946
+
+🔹 a = 0.3
+  MAE: 0.7007
+  RMSE: 0.8734
+  Precision@K: 0.1281
+  Recall@K: 0.1568
+  F1@K: 0.141
+  Coverage: 1.0
+
+🔹 a = 0.4
+  MAE: 0.7733
+  RMSE: 0.9585
+  Precision@K: 0.1454
+  Recall@K: 0.178
+  F1@K: 0.1601
+  Coverage: 0.9785
+
+🔹 a = 0.5
+  MAE: 0.9833
+  RMSE: 1.206
+  Precision@K: 0.1423
+  Recall@K: 0.1743
+  F1@K: 0.1567
+  Coverage: 0.9785
+
+🔹 a = 0.6
+  MAE: 1.2797
+  RMSE: 1.5386
+  Precision@K: 0.1383
+  Recall@K: 0.1693
+  F1@K: 0.1522
+  Coverage: 0.9785
+
+🔹 a = 0.7
+  MAE: 1.5871
+  RMSE: 1.8655
+  Precision@K: 0.1321
+  Recall@K: 0.1618
+  F1@K: 0.1455
+  Coverage: 0.9624
+
+🔹 a = 0.8
+  MAE: 1.8682
+  RMSE: 2.1525
+  Precision@K: 0.1337
+  Recall@K: 0.1636
+  F1@K: 0.1471
+  Coverage: 0.957
+
+🔹 a = 0.9
+  MAE: 2.111
+  RMSE: 2.3882
+  Precision@K: 0.1342
+  Recall@K: 0.1643
+  F1@K: 0.1477
+  Coverage: 0.9516
+
+🔹 a = 1
+  MAE: 2.3151
+  RMSE: 2.5812
+  Precision@K: 0.1362
+  Recall@K: 0.1668
+  F1@K: 0.15
+  Coverage: 0.957
+
+
+
+
+(USER-CF)稀疏情况：
+
+  测试集比例: 0.2
+
+  MAE: 0.6038
+  RMSE: 0.7691
+  Precision@K: 0.0801
+  Recall@K: 0.201
+  F1@K: 0.1146
+  Coverage: 0.9519
+
+测试集比例: 0.4
+
+  MAE: 0.6179
+  RMSE: 0.7761
+  Precision@K: 0.125
+  Recall@K: 0.153
+  F1@K: 0.1376
+  Coverage: 0.9358
+
+测试集比例: 0.6
+
+  MAE: 0.6706
+  RMSE: 0.8606
+  Precision@K: 0.1684
+  Recall@K: 0.1364
+  F1@K: 0.1507
+  Coverage: 0.9251
+
+测试集比例: 0.8
+
+  MAE: 0.7648
+  RMSE: 0.98
+  Precision@K: 0.201
+  Recall@K: 0.1216
+  F1@K: 0.1515
+  Coverage: 0.7701
+
+
+
+  (ITEM-CF)稀疏情况：
+测试集比例: 0.2
+
+  MAE: 1.9881
+  RMSE: 2.3142
+  Precision@K: 0.0786
+  Recall@K: 0.1972
+  F1@K: 0.1124
+  Coverage: 0.9091
+测试集比例: 0.4
+
+  MAE: 2.3151
+  RMSE: 2.5812
+  Precision@K: 0.1362
+  Recall@K: 0.1668
+  F1@K: 0.15
+  Coverage: 0.9572
+测试集比例: 0.6
+
+  MAE: 2.6378
+  RMSE: 2.8895
+  Precision@K: 0.1556
+  Recall@K: 0.126
+  F1@K: 0.1393
+  Coverage: 0.9572
+测试集比例: 0.8
+
+  MAE: 2.6521
+  RMSE: 2.9758
+  Precision@K: 0.1974
+  Recall@K: 0.1194
+  F1@K: 0.1488
+  Coverage: 0.893
+
+(KG a=0.5)稀疏情况：
